@@ -14,14 +14,14 @@ In order to use React, we first need to install different external packages (aka
 
 ### Install Gulp ###
 [Gulp](http://gulpjs.com/) is "an automated task runner that runs in the background watching for changes to files in specified directories, then executing predefined tasks as a part of your build process." This probably doesn't make much sense, but basically in our code it takes the Reactjs code you write and compiles it into Javascript that the browser can read. It's constantly running in the background so whenever you make a change in the React file it'll update the javascript. To install this:
-* Run `npm install gulp -g` (this -g means global so it will install it to your root)
+* Run `npm install gulp -g` (this -g means global so it will install it to your root)\s
 Now just try running `gulp` inside `src`, you should see `using gulpfile` and a bunch of task being started and finished. You may notice that it is never stopping; this process will continuously run to watch for any changes you make.
 
 ## Developing ##
 Now that you havve necessary dependecies setup, let's start making changes!\s
 One important thing to note: **all changes you'll be making should be in `src/js` and `src/css`**
 
-### Run Gulp ###
+### Always Run Gulp ###
 Whenever you are developing you MUST ALWAYS RUN GULP. If you don't, the changes you make won't show up in your browser. So when you are working on this project always do the following before you start:
 * Open up a new tab on terminal
 * `cd` into `src`
@@ -34,7 +34,8 @@ To make changes to the React code you should first `cd` into `src/js`. There, yo
 ### Making changes to CSS ###
 To add style changes you can find `src/css` and find `main.css`.
 
-After making changes in the `src` directory, always check back to the terminal tab that is running `gulp` as it will show you if there were any compiling error.
+### After making changes ###
+After making changes in the `src` directory, always check back to the terminal tab that is running `gulp` as it will show you if there were any compiling error. If there are errors, go back to the source files, try to fix and check back on the terminal to see if it works. Keep repeating until everything compiles!
 
 ### Running a local server ###
 Once you have made changes in your code and gulp successfully compiles, you can run a simple server to see your app in the browser. This can be done by using python's SimpleHTTPServer:
