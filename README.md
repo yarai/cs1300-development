@@ -13,7 +13,7 @@ In order to use React, we first need to install different external packages (aka
   * If you do not have npm installed, you can download it from [here](https://nodejs.org/en/)
 
 ### Install Gulp ###
-Gulp is "an automated task runner that runs in the background watching for changes to files in specified directories, then executing predefined tasks as a part of your build process." This probably doesn't make much sense, but basically in our code it takes the Reactjs code you write and compiles it into Javascript that the browser can read. It's constantly running in the background so whenever you make a change in the React file it'll update the javascript. To install this:
+[Gulp](http://gulpjs.com/) is "an automated task runner that runs in the background watching for changes to files in specified directories, then executing predefined tasks as a part of your build process." This probably doesn't make much sense, but basically in our code it takes the Reactjs code you write and compiles it into Javascript that the browser can read. It's constantly running in the background so whenever you make a change in the React file it'll update the javascript. To install this:
 * Run `npm install gulp -g` (this -g means global so it will install it to your root)
 Now just try running `gulp` inside `src`, you should see `using gulpfile` and a bunch of task being started and finished. You may notice that it is never stopping; this process will continuously run to watch for any changes you make.
 
