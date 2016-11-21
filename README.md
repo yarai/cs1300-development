@@ -3,7 +3,7 @@
 ## Setup ##
 
 ### Clone Repository ###
-Open up terminal, go to a folder where you want put this project and run \s 
+Open up terminal, go to a folder where you want put this project and run \s\s
 `https://github.com/yarai/cs1300-development.git`
 
 ### Install Packages ###
@@ -14,18 +14,18 @@ In order to use React, we first need to install different external packages (aka
 
 ### Install Gulp ###
 [Gulp](http://gulpjs.com/) is "an automated task runner that runs in the background watching for changes to files in specified directories, then executing predefined tasks as a part of your build process." This probably doesn't make much sense, but basically in our code it takes the Reactjs code you write and compiles it into Javascript that the browser can read. It's constantly running in the background so whenever you make a change in the React file it'll update the javascript. To install this:
-* Run `npm install gulp -g` (this -g means global so it will install it to your root)\s
+* Run `npm install gulp -g` (this -g means global so it will install it to your root)\s\s
 Now just try running `gulp` inside `src`, you should see `using gulpfile` and a bunch of task being started and finished. You may notice that it is never stopping; this process will continuously run to watch for any changes you make.
 
 ## Developing ##
-Now that you havve necessary dependecies setup, let's start making changes!\s
+Now that you havve necessary dependecies setup, let's start making changes!\s\s
 One important thing to note: **all changes you'll be making should be in `src/js` and `src/css`**
 
 ### Always Run Gulp ###
 Whenever you are developing you MUST ALWAYS RUN GULP. If you don't, the changes you make won't show up in your browser. So when you are working on this project always do the following before you start:
 * Open up a new tab on terminal
 * `cd` into `src`
-* Run `gulp`\s
+* Run `gulp`\s\s
 Keep gulp running on this tab while you are developing.
 
 ### Making changes to React ###
