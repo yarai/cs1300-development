@@ -3,7 +3,7 @@
 ## Setup ##
 
 ### Clone Repository ###
-Open up terminal, go to a folder where you want put this project and run 
+Open up terminal, go to a folder where you want put this project and run\s 
 `https://github.com/yarai/cs1300-development.git`
 
 ### Install Packages ###
