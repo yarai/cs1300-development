@@ -42,6 +42,7 @@ Once you have made changes in your code and gulp successfully compiles, you can 
 * `cd` back to `cs1300-development`
 * Run `python -m SimpleHTTPServer`
   * This will create a server from the cs1300-development directory
+  * If you do not have python you can download it [here](https://www.python.org/downloads/) (download python 2.7)
 * Now on your browser, go to localhost:8000 to see your app!
 
 ## More Resources ##
