@@ -50,6 +50,7 @@ Once you have made changes in your code and gulp successfully compiles, you can 
 ### React ###
 https://facebook.github.io/react/docs/thinking-in-react.html
 https://scotch.io/tutorials/learning-react-getting-started-and-concepts
+http://ricostacruz.com/cheatsheets/react.html
 
 ## For the curious ##
 Here are some more technical things about this repository in case you are curious.
