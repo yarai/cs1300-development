@@ -45,12 +45,16 @@ Once you have made changes in your code and gulp successfully compiles, you can 
   * If you do not have python you can download it [here](https://www.python.org/downloads/) (download python 2.7)
 * Now on your browser, go to localhost:8000 to see your app!
 
+## Alternative Templates ##
+If you have tried working with this template but are having issues that you cannot resolve (such as the box never showing up, javscript file being broken, etc.), you can use the following alternative:  
+https://github.com/facebookincubator/create-react-app
+
 ## More Resources ##
 
 ### React ###
-https://facebook.github.io/react/docs/thinking-in-react.html
-https://scotch.io/tutorials/learning-react-getting-started-and-concepts
-http://ricostacruz.com/cheatsheets/react.html
+https://facebook.github.io/react/docs/thinking-in-react.html  
+https://scotch.io/tutorials/learning-react-getting-started-and-concepts  
+http://ricostacruz.com/cheatsheets/react.html  
 
 ## For the curious ##
 Here are some more technical things about this repository in case you are curious.
