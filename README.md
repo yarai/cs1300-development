@@ -4,7 +4,7 @@
 
 ### Clone Repository ###
 Open up terminal, go to a folder where you want put this project and run  
-`https://github.com/yarai/cs1300-development.git`
+`git clone https://github.com/yarai/cs1300-development.git`
 
 ### Install Packages ###
 In order to use React, we first need to install different external packages (aka javascript/css frameworks that other people wrote). I have already created a list of dependencies needed (in `package.json`) but you will need to install them into your local computer by doing the following:
