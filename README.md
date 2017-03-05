@@ -1,5 +1,7 @@
 # CS1300 Development Assignment Template
 
+Project template for CS1300 React Development Assignment
+
 ## Setup ##
 
 ### Clone Repository ###
